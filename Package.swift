@@ -17,14 +17,14 @@ let package = Package(
 		.target(name: "GXObjectsModelWrapper",
 				dependencies: [
 					"GXObjectsModel",
-					.product(name: "GXFoundation", package: "GXFoundation", condition: .when(platforms: [.tvOS, .watchOS, .iOS])),
+					.product(name: "GXFoundation", package: "GXFoundation", condition: .when(platforms: [.iOS, .tvOS, .watchOS])),
 					.product(name: "YAJL", package: "YAJL", condition: .when(platforms: [.iOS]))
 				],
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXObjectsModel",
-			url: "https://pkgs.genexus.dev/iOS/beta/GXObjectsModel-1.0.0-beta+20230328162416.xcframework.zip",
-			checksum: "84660943ab53b93ae06d1b7e892d8bb920d3c31055b37e857535cd737f520b5c"
+			url: "https://pkgs.genexus.dev/iOS/beta/GXObjectsModel-1.0.0-beta+20230328171001.xcframework.zip",
+			checksum: "70090db1dd6ec4b898427a8f3acca55f83b97721be0b965897d59b67431cf12b"
 		)
 	]
 )
