@@ -23,8 +23,8 @@ let package = Package(
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXObjectsModel",
-			url: "https://pkgs.genexus.dev/iOS/beta/GXObjectsModel-1.0.0-beta+20230509173316.xcframework.zip",
-			checksum: "f092dbeb13539cba317f8233dd4e1ce6ea86c91d9cf700b2b2f835bef5e619b6"
+			url: "https://pkgs.genexus.dev/iOS/beta/GXObjectsModel-1.0.0-beta+20230509202229.xcframework.zip",
+			checksum: "3f9d7c4963c353937f5043ff532adf92231ccc4c408197f349671a20c879d0ec"
 		)
 	]
 )
