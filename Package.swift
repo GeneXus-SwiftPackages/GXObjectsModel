@@ -3,14 +3,14 @@ import PackageDescription
 
 let package = Package(
 	name: "GXObjectsModel",
-	platforms: [.iOS("12.0"), .watchOS("5.0"), .tvOS("12.0")],
+	platforms: [.iOS("12.0"), .watchOS("9.0"), .tvOS("12.0")],
 	products: [
 		.library(
 			name: "GXObjectsModel",
 			targets: ["GXObjectsModelWrapper"])
 	],
 	dependencies: [
-		.package(url: "https://github.com/GeneXus-SwiftPackages/GXFoundation.git", exact: "1.4.0-beta.8")
+		.package(url: "https://github.com/GeneXus-SwiftPackages/GXFoundation.git", exact: "1.4.0-beta.11")
 	],
 	targets: [
 		.target(name: "GXObjectsModelWrapper",
@@ -21,8 +21,8 @@ let package = Package(
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXObjectsModel",
-			url: "https://pkgs.genexus.dev/iOS/beta/GXObjectsModel-1.4.0-beta.8.xcframework.zip",
-			checksum: "145ae22c6ab3d6832408fd2d60c56eb34e4cfb59225a1e2e328d9d28f1893f13"
+			url: "https://pkgs.genexus.dev/iOS/beta/GXObjectsModel-1.4.0-beta.11.xcframework.zip",
+			checksum: "484b4d2477f4637025cad4cc55ca6c14e8ed72ca03fdfe71b2e80258f12f8bbb"
 		)
 	]
 )
