@@ -1,4 +1,4 @@
-// swift-tools-version: 5.7
+// swift-tools-version: 5.9
 import PackageDescription
 
 let package = Package(
@@ -10,7 +10,7 @@ let package = Package(
 			targets: ["GXObjectsModelWrapper"])
 	],
 	dependencies: [
-		.package(url: "https://github.com/GeneXus-SwiftPackages/GXFoundation.git", exact: "1.6.0-beta.2")
+		.package(url: "https://github.com/GeneXus-SwiftPackages/GXFoundation.git", exact: "1.6.0-beta.3")
 	],
 	targets: [
 		.target(name: "GXObjectsModelWrapper",
@@ -21,8 +21,8 @@ let package = Package(
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXObjectsModel",
-			url: "https://pkgs.genexus.dev/iOS/beta/GXObjectsModel-1.6.0-beta.2.xcframework.zip",
-			checksum: "f95137ed1e7a8ec54589de5fdbae52efa4f1ef06272a91a7d3db932696b4bce3"
+			url: "https://pkgs.genexus.dev/iOS/beta/GXObjectsModel-1.6.0-beta.3.xcframework.zip",
+			checksum: "adaa432bc6688210a0ef6c72d61e6e012eb196c333ba67879023e7818193d0da"
 		)
 	]
 )
