@@ -10,7 +10,7 @@ let package = Package(
 			targets: ["GXObjectsModelWrapper"])
 	],
 	dependencies: [
-		.package(url: "https://github.com/GeneXus-SwiftPackages/GXFoundation.git", exact: "4.2.0-beta.13")
+		.package(url: "https://github.com/GeneXus-SwiftPackages/GXFoundation.git", exact: "4.2.0-beta.14")
 	],
 	targets: [
 		.target(name: "GXObjectsModelWrapper",
@@ -21,8 +21,8 @@ let package = Package(
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXObjectsModel",
-			url: "https://pkgs.genexus.dev/iOS/beta/GXObjectsModel-4.2.0-beta.13.xcframework.zip",
-			checksum: "013735adc3f1fca75dd0c004ef65c31d75e0bc1e1b954fd6d8b113ed3d28ae60"
+			url: "https://pkgs.genexus.dev/iOS/beta/GXObjectsModel-4.2.0-beta.14.xcframework.zip",
+			checksum: "2f4962b48d0113eef6a48a3a6a28bbc947aef7db43a802d313fedd0ee1d0bb78"
 		)
 	]
 )
